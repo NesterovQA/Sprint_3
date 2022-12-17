@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class TestLocatorsLoginPageLocators:
+class LoginPageLocators:
     # LoginPageLocators:
     FIELD_NAME = (By.XPATH, '(//*[contains(@class, "text input__textfield")])[1]')
     FIELD_EMAIL = (By.XPATH, '(//*[contains(@class, "text input__textfield")])[2]')

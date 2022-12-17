@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class TestLocators:
+class MainPageLocators:
     # MainPageLocators:
     PERSONAL_ACCOUNT = (By.XPATH, ".//p[text()='Личный Кабинет']")
     LOGIN_ACCOUNT_BUTTON = (By.XPATH, ".//button[contains(text(),'Войти в аккаунт')]")
